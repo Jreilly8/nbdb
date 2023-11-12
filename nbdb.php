@@ -78,8 +78,8 @@ class Nbmemberdb {
 				//send out notification email
 				$body = "<pre>".implode("\n",$this->log_stack)."</pre>";
 				
-				$extraheaders = 'From: it@treasureislandmedia.com' . "\r\n" .
-								'Reply-To: it@treasureislandmedia.com' . "\r\n" .
+				$extraheaders = 'From: it@...' . "\r\n" .
+								'Reply-To: it@...' . "\r\n" .
 								'Content-Type: text/html; charset=ISO-8859-1' . "\r\n" .
 								'X-Mailer: PHP/' . phpversion();
 				
